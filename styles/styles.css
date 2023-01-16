@@ -1,0 +1,239 @@
+/* le header de l'application */
+#header {
+    background-image: url('../images/campus.jfif');
+    background-size: 100% 100%;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 10px gray;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+}
+
+/* le header de l'application */
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: end;
+}
+
+/* class css por le titre de l'application */
+.title {
+    padding-bottom: 50px;
+    margin-top: 0px;
+    font-size: 48px;
+}
+
+#section {
+    padding: 15px;
+}
+
+.menu {
+    list-style-type: none;
+    background-color: rgb(0 73 131);
+    ;
+    /* width: 100%; */
+    flex: 50%;
+    margin-bottom: 0px;
+
+}
+
+.menu-item {
+    display: inline;
+    float: left;
+    margin-top: auto;
+    border-right: 1px solid #bbb;
+
+}
+
+.menu-item-right {
+    display: inline;
+    float: right;
+    margin-top: auto;
+    border-left: 1px solid #bbb;
+
+}
+
+.menu-item-href-left {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+}
+
+.menu-item-href-right {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 7px;
+}
+
+/* #first-section{
+    background-color: aqua;
+}  */
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(2 41 73);
+}
+
+
+.page-container {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.white {
+    filter: brightness(0) invert(1);
+}
+
+.card {
+    width: 75%;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+#card-info,
+#card-quiz {
+    position: absolute;
+}
+
+#card-info .buttons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 30px;
+    border-top: 1px solid lightgrey;
+}
+
+.hide {
+
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+}
+
+.span-badge-succes {
+    background-color: rgb(62, 145, 62);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#article li {
+    padding: 15px
+}
+
+
+
+/* style table */
+#competences {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0px 0px 10px gray;
+}
+
+#competences td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#competences tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#competences tr:hover {
+    background-color: #ddd;
+}
+
+#competences th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+
+#main-section {
+    background-color: lightgray;
+    display: flex;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(251, 251, 251);
+    background-color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.active-dropdown {
+    background-color: rgb(2 41 73) !important;
+}
+
+.active-dropdown:hover {
+    background-color: #111 !important;
+}
+
+.galerie {
+    margin: 3px;
+    border: 10px solid white;
+    box-shadow: 5px 10px 5px black;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo-iit.png">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+        <nav  id="header">
+            <center><h1 class="title"> page web personel</h1></center>
+            <ul class="menu" >
+                <li  class="menu-item"><a class="menu-item-href-left" href="./acceuil.html">Introduction</a></li>
+                <li  class="menu-item dropdown" style="float:left;">
+                     
+                    <a class="menu-item-href-left" href="#">Parcours</a>
+                    <div class="dropdown-content" style="left:0;">
+                    <a href="./diplomes.html">Diplomes</a>
+                    <a href="./competences.html">Compétences</a>
+                    <a href="./experiences.html">Expériences</a>
+                    <a href="./manifestations.html">Manifestations</a>
+                    <!-- </div> -->
+                  </div>
+                  </li>
+                <li  class="menu-item  active"><a class="menu-item-href-left" href="./quiz.html">Quiz</a></li>
+                <li  class="menu-item"><a class="menu-item-href-left" href="./contact.html">Contact</a></li>
+                <li  class="menu-item"><a class="menu-item-href-left" href="./temoignage.html">Temoignage</a></li>
+
+                <li class="menu-item-right"><a class="menu-item-href-right" href="https://www.facebook.com/" target="_blank"> <img class="white" src="./images/facebook-f.svg" width="25px" height="25px" style="fill: white;"/></a></li>
+                <li class="menu-item-right"><a class="menu-item-href-right" href="https://twitter.com/" target="_blank"><img class="white"  src="./images/twitter.svg" width="25px" height="25px"/></a></li>
+                <li class="menu-item-right"><a class="menu-item-href-right" href="https://fr.linkedin.com/" target="_blank"><img class="white"  src="./images/linkedin.svg" width="25px" height="25px"/></a></li>
+                <li class="menu-item-right"><a class="menu-item-href-right" href="https://www.youtube.com/" target="_blank"><img class="white" src="./images/youtube.svg" width="25px" height="25px"/></a></li>
+                <li class="menu-item-right"><a class="menu-item-href-right" href="https://www.instagram.com/najla_hnia/" target="_blank"><img class="white" src="./images/instagram.svg" width="25px" height="25px"/></a></li>
+            </ul>
+          
+        </nav>
+   <main  class="page-container"> 
+    <section id="section">
+       
+        
+            <header>
+                <h3>Le sport, la santé et culture générale</h3>
+            </header>
+            <div id="quiz">
+                <article>
+                    <fieldset>
+                        <legend>Le sport permet d'améliorer sa santé car :</legend>
+                    <form name="que1"> 
+                        <input type="checkbox" name="rep1" value="Il permet de lutter contre la sédentarité">
+                        <label >Il permet de lutter contre la sédentarité</label><br> 
+                        <input type="checkbox" name="rep2" value="Il permet de gagner des années de vie en bonne santé.">
+                        <label> Il permet de gagner des années de vie en bonne santé.</label><br>
+                        <input type="checkbox" name="rep3" value="Ça ne change pas grand chose à notre santé">
+                        <label>Ça ne change pas grand chose à notre santé</label><br> 
+                    <p id="res1Status" style="display:none"></p>
+                    <p id="res1" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>Le sport maintient notre poids de forme.</legend>
+                    <form name="que2"> 
+                        <input type="checkbox" name="rep1" value="Vrai, il contribue à accroître notre métabolisme de base">
+                        <label >Vrai, il contribue à accroître notre métabolisme de base</label><br> 
+                        <input type="checkbox" name="rep2" value="Vrai, et il doit être associé à un régime alimentaire équilibré et adapté">
+                        <label>Vrai, et il doit être associé à un régime alimentaire équilibré et adapté</label><br>
+                        <input type="checkbox" name="rep3" value="Vrai, bien adapté il permet de maintenir le poids de forme, de limiter les prises de poids">
+                        <label>Vrai, bien adapté il permet de maintenir le poids de forme, de limiter les prises de poids</label><br> 
+                    <p id="res2Status" style="display:none"></p>
+                    <p id="res2" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                 
+                <article>
+                    <fieldset>
+                        <legend>Le sport réduit le stress et améliore le mental.</legend>
+                    <form name="que3"> 
+                        <input type="checkbox" name="rep1" value="Non le sport rend plus nerveux">
+                        <label >Non le sport rend plus nerveux</label><br> 
+                        <input type="checkbox" name="rep2" value="Oui, les endorphines produites pendant le sport sont appelées (hormones du bonheur)">
+                        <label>Oui, les endorphines produites pendant le sport sont appelées (hormones du bonheur)</label><br>
+                        <input type="checkbox" name="rep3" value="Oui, il permet d'évacuer le stress et l'anxiété">
+                        <label>Oui, il permet d'évacuer le stress et l'anxiété</label><br> 
+                    <p id="res3Status" style="display:none"></p>
+                    <p id="res3" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>Comment choisir son activité physique ?</legend>
+                    <form name="que4"> 
+                        <input type="checkbox" name="rep1" value="En fonction du plaisir qu'on prend à faire le sport choisi">
+                        <label>En fonction du plaisir qu'on prend à faire le sport choisi</label><br> 
+                        <input type="checkbox" name="rep2" value="En fonction de son état de santé">
+                        <label>En fonction de son état de santé</label><br>
+                        <input type="checkbox" name="rep3" value="Il n'y a pas d'importance on peut pratiquer n'importe quel sport">
+                        <label>Il n'y a pas d'importance on peut pratiquer n'importe quel sport
+                        </label><br> 
+                    <p id="res4Status" style="display:none"></p>
+                    <p id="res4" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>Le sport doit-il être accompagné d'une hygiène de vie ?</legend>
+                    <form name="que5"> 
+                        <input type="checkbox" name="rep1" value="Pas forcément ! c'est déjà pas mal de faire du sport">
+                        <label>Pas forcément ! c'est déjà pas mal de faire du sport</label><br> 
+                        <input type="checkbox" name="rep2" value="Oui une bonne hygiène de vie augmente les effets positifs du sport">
+                        <label>Oui une bonne hygiène de vie augmente les effets positifs du sport</label><br>
+                        <input type="checkbox" name="rep3" value="IOui, il faut en profiter pour diminuer l'alcool, maintenir un bon sommeil, privilégier une alimentation pauvre en graisse et riche en sucres lents (pâtes...), supprimer le tabac qui encrasse les coronaires">
+                        <label>Oui, il faut en profiter pour diminuer l'alcool, maintenir un bon sommeil, privilégier une alimentation pauvre en graisse et riche en sucres lents (pâtes...), supprimer le tabac qui encrasse les coronaires</label><br> 
+                    <p id="res5Status" style="display:none"></p>
+                    <p id="res5" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>Que pouvons-nous dire sur sport et confinement ?</legend>
+                    <form name="que6"> 
+                        <input type="checkbox" name="rep1" value="Nous n'avons pas le droit de faire du sport durant le confinement">
+                        <label>Nous n'avons pas le droit de faire du sport durant le confinement</label><br> 
+                        <input type="checkbox" name="rep2" value="Il est nécessaire de s'adapter à cette situation exceptionnelle en maintenant une pratique sportive régulière">
+                        <label>Il est nécessaire de s'adapter à cette situation exceptionnelle en maintenant une pratique sportive régulière</label><br>
+                        <input type="checkbox" name="rep3" value="Il faut une attestation dérogatoire pour sortir faire du sport">
+                        <label>Il faut une attestation dérogatoire pour sortir faire du sport</label><br> 
+                    <p id="res6Status" style="display:none"></p>
+                    <p id="res6" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>Quel est le plus grand pays du monde ?</legend>
+                    <form name="que7"> 
+                        <input type="checkbox" name="rep1" value="Le Canada">
+                        <label>Le Canada</label><br> 
+                        <input type="checkbox" name="rep2" value="La Russie">
+                        <label>La Russie</label><br>
+                        <input type="checkbox" name="rep3" value="Les Etats-Unis">
+                        <label>Les Etats-Unis</label><br> 
+                    <p id="res7Status" style="display:none"></p>
+                    <p id="res7" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>Quelles ont été les premières paroles de Neil Armstrong quand il a mis un pied sur la Lune en 1969 ?</legend>
+                    <form name="que8"> 
+                        <input type="checkbox" name="rep1" value="La première fois que j'ai regardé la Terre, debout sur la lune, j'ai pleuré.">
+                        <label>La première fois que j'ai regardé la Terre, debout sur la lune, j'ai pleuré.</label><br> 
+                        <input type="checkbox" name="rep2" value="Il m'a soudain frappé que ce petit pois, joli et bleu, était la Terre.">
+                        <label>Il m'a soudain frappé que ce petit pois, joli et bleu, était la Terre.</label><br>
+                        <input type="checkbox" name="rep3" value="C’est un petit pas pour un homme, un bond de géant pour l’humanité.">
+                        <label>C’est un petit pas pour un homme, un bond de géant pour l’humanité.</label><br> 
+                    <p id="res8Status" style="display:none"></p>
+                    <p id="res8" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>Dans quel océan navigue-t-on au large de la ville de New York ?</legend>
+                    <form name="que9"> 
+                        <input type="checkbox" name="rep1" value="Océan Pacifique">
+                        <label>Océan Pacifique</label><br> 
+                        <input type="checkbox" name="rep2" value="Océan Atlantique">
+                        <label>Océan Atlantique</label><br>
+                        <input type="checkbox" name="rep3" value="Océan Indien">
+                        <label>Océan Indien</label><br> 
+                        <input type="checkbox" name="rep3" value="Océan Austral">
+                        <label>Océan Austral</label><br> 
+                    <p id="res9Status" style="display:none"></p>
+                    <p id="res9" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>Quel animal accompagne Harry Potter dans la saga du même nom ?</legend>
+                    <form name="que10"> 
+                        <input type="checkbox" name="rep1" value="Un hibou">
+                        <label>Un hibou</label><br> 
+                        <input type="checkbox" name="rep2" value="Un rat">
+                        <label>Un rat</label><br>
+                        <input type="checkbox" name="rep3" value="Un chat">
+                        <label>Un chat</label><br> 
+                    <p id="res10Status" style="display:none"></p>
+                    <p id="res10" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>Complétez est le nom de la série Netflix tournée à Paris : _____ in Paris.</legend>
+                    <form name="que11"> 
+                        <input type="checkbox" name="rep1" value="Julia">
+                        <label>Julia</label><br> 
+                        <input type="checkbox" name="rep2" value="Emily">
+                        <label>Emily</label><br>
+                        <input type="checkbox" name="rep3" value="Naomi">
+                        <label>Naomi</label><br> 
+                    <p id="res11Status" style="display:none"></p>
+                    <p id="res11" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>Quel fleuve est commun à la France et à l’Allemagne ?</legend>
+                    <form name="que12"> 
+                        <input type="checkbox" name="rep1" value="Le Rhône">
+                        <label>Le Rhône</label><br> 
+                        <input type="checkbox" name="rep2" value="La Loire">
+                        <label>La Loire</label><br>
+                        <input type="checkbox" name="rep3" value="Le Rhin">
+                        <label>Le Rhin</label><br> 
+                    <p id="res12Status" style="display:none"></p>
+                    <p id="res12" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>Sur quoi reposent principalement les travaux des scientifiques Pierre et Marie Curie ?</legend>
+                    <form name="que13"> 
+                        <input type="checkbox" name="rep1" value="La radioactivité">
+                        <label>La radioactivité</label><br> 
+                        <input type="checkbox" name="rep2" value="La vaccination">
+                        <label>La vaccination</label><br>
+                        <input type="checkbox" name="rep3" value="L'électricité">
+                        <label>L'électricité</label><br> 
+                    <p id="res13Status" style="display:none"></p>
+                    <p id="res13" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>Dans quel sport peut-on faire un spare ou bien encore un strike ?</legend>
+                    <form name="que14"> 
+                        <input type="checkbox" name="rep1" value="Le basketball">
+                        <label>Le basketball</label><br> 
+                        <input type="checkbox" name="rep2" value="Le curling">
+                        <label>Le curling</label><br>
+                        <input type="checkbox" name="rep3" value="Le bowling">
+                        <label>Le bowling</label><br> 
+                    <p id="res14Status" style="display:none"></p>
+                    <p id="res14" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>A quelle exclamation est associé le principe d’Archimède ?</legend>
+                    <form name="que15"> 
+                        <input type="checkbox" name="rep1" value="Bingo !">
+                        <label>Bingo !</label><br> 
+                        <input type="checkbox" name="rep2" value="Eurêka !">
+                        <label>Eurêka !</label><br>
+                        <input type="checkbox" name="rep3" value="Nom de Zeus !">
+                        <label>Nom de Zeus !</label><br> 
+                    <p id="res15Status" style="display:none"></p>
+                    <p id="res15" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+                <article>
+                    <fieldset>
+                        <legend>Quel est le résultat de cette opération : 2³+1 ?</legend>
+                    <form name="que16"> 
+                        <input type="checkbox" name="rep1" value="9">
+                        <label>9</label><br> 
+                        <input type="checkbox" name="rep2" value="12">
+                        <label>12</label><br>
+                        <input type="checkbox" name="rep3" value="7">
+                        <label>7</label><br> 
+                    <p id="res16Status" style="display:none"></p>
+                    <p id="res16" style="display:none"></p>
+                    </form>
+                    </fieldset>
+                </article>
+              </div>
+              <input type="button" name="bout" value="valider" onClick="validate()">
+                <p id="text" style="display:none"></p>
+      
+    </section>
+     
+   </main>
+   <footer id="footer">
+    <p style="margin-right: 25px;" >© Copyright 2022</p>
+   </footer>
+   <script src="./js/responses.js"></script>
+            <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+            <script src="./js/quiz-script.js"></script>
+</body>
+</html>
