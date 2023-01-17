@@ -11,7 +11,7 @@
 
 <body>
         <nav  id="header">
-            <center><h1 class="title"> page web personel</h1></center>
+            <center><h1 class="title"> Parcours personnel et professionnel: Najla Hnia </h1></center>
             <ul class="menu" >
                 <li  class="menu-item"><a class="menu-item-href-left" href="./acceuil.html">Introduction</a></li>
                 <li  class="menu-item dropdown" style="float:left;">
@@ -19,6 +19,7 @@
                     <a class="menu-item-href-left" href="#">Parcours</a>
                     <div class="dropdown-content" style="left:0;">
                     <a href="./diplomes.html">Diplomes</a>
+                    <a href="./matiere.html">Matière</a>
                     <a href="./competences.html">Compétences</a>
                     <a href="./experiences.html">Expériences</a>
                     <a href="./manifestations.html">Manifestations</a>
@@ -28,6 +29,7 @@
                 <li  class="menu-item  active"><a class="menu-item-href-left" href="./quiz.html">Quiz</a></li>
                 <li  class="menu-item"><a class="menu-item-href-left" href="./contact.html">Contact</a></li>
                 <li  class="menu-item"><a class="menu-item-href-left" href="./temoignage.html">Temoignage</a></li>
+                <li class="menu-item"><a class="menu-item-href-left" href="./loisir.html">Loisirs</a></li>
 
                 <li class="menu-item-right"><a class="menu-item-href-right" href="https://www.facebook.com/" target="_blank"> <img class="white" src="./images/facebook-f.svg" width="25px" height="25px" style="fill: white;"/></a></li>
                 <li class="menu-item-right"><a class="menu-item-href-right" href="https://twitter.com/" target="_blank"><img class="white"  src="./images/twitter.svg" width="25px" height="25px"/></a></li>
@@ -55,7 +57,9 @@
                         <label> Il permet de gagner des années de vie en bonne santé.</label><br>
                         <input type="checkbox" name="rep3" value="Ça ne change pas grand chose à notre santé">
                         <label>Ça ne change pas grand chose à notre santé</label><br> 
+                        <!-- afficher le status correcte/incorrecte -->
                     <p id="res1Status" style="display:none"></p>
+                    <!-- afficher les bonnes reponses -->
                     <p id="res1" style="display:none"></p>
                     </form>
                     </fieldset>
@@ -160,8 +164,8 @@
                         <label>La première fois que j'ai regardé la Terre, debout sur la lune, j'ai pleuré.</label><br> 
                         <input type="checkbox" name="rep2" value="Il m'a soudain frappé que ce petit pois, joli et bleu, était la Terre.">
                         <label>Il m'a soudain frappé que ce petit pois, joli et bleu, était la Terre.</label><br>
-                        <input type="checkbox" name="rep3" value="C’est un petit pas pour un homme, un bond de géant pour l’humanité.">
-                        <label>C’est un petit pas pour un homme, un bond de géant pour l’humanité.</label><br> 
+                        <input type="checkbox" name="rep3" value="C'est un petit pas pour un homme, un bond de géant pour l'humanité.">
+                        <label>C'est un petit pas pour un homme, un bond de géant pour l'humanité.</label><br> 
                     <p id="res8Status" style="display:none"></p>
                     <p id="res8" style="display:none"></p>
                     </form>
@@ -261,7 +265,7 @@
                 </article>
                 <article>
                     <fieldset>
-                        <legend>A quelle exclamation est associé le principe d’Archimède ?</legend>
+                        <legend>A quelle exclamation est associé le principe d'Archimède ?</legend>
                     <form name="que15"> 
                         <input type="checkbox" name="rep1" value="Bingo !">
                         <label>Bingo !</label><br> 
@@ -290,8 +294,8 @@
                     </fieldset>
                 </article>
               </div>
-              <input type="button" name="bout" value="valider" onClick="validate()">
-                <p id="text" style="display:none"></p>
+              <input type="button" name="bout" value="Valider" onClick="validate()">
+                <h3><p id="text" style="display:none"></p></h3>
       
     </section>
      
